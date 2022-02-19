@@ -1,0 +1,81 @@
+body{
+    background-image: url('../phanthi/p2.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+#header{
+    background-color: #131921;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo{
+    padding: 5px 0px;
+
+}
+#logo img{
+    max-width: 50px;
+    height: auto;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu li a{
+    color: #f8f8f8;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+#frm-search{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 18px 20px;
+    color: white;
+    
+}
+body{
+    font-size:16px;
+}
+#wrapper{
+    max-width: auto;
+    margin: 0px auto;
+}
+.container{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    border-bottom: 3px solid #6bb1b6(141, 106, 106);
+}
+.container li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    position: relative;
+}
+.container li a::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -3px;
+    background: transparent;/*transparent mau trong suot*/
+}
+.container li.active a::after{
+    background: #6bb1b6;/*transparent mau trong suot*/
+}
+    /*style .container*/
+    .container{
+        padding: 20px 0px;
+    }

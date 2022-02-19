@@ -1,0 +1,139 @@
+body
+{
+    width: 0x;
+    height: 1000px;
+    background-color: aquamarine;
+    margin: auto;
+
+}
+.phandau
+{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(17, 145, 150);
+}
+.phandau img
+{
+    float: left;
+    
+}
+.phandau ul
+{
+    list-style-type: none;
+    display: flex;
+}
+.phandau a
+{
+    text-decoration: none;
+    color: white;
+    
+   
+}
+.phandau li
+{
+    margin: 2%;
+    background-color: black;  
+}
+.phandau li :hover
+{
+    background-color: rgb(165, 167, 163);
+}
+
+/*phanthan*/
+
+.phanthan
+{
+    margin: 2%;
+}
+.p1
+{  
+     width: 80%;
+    height: 370px;
+    border: 2px solid rgb(59, 137, 156);
+    background-color: cornsilk;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.anh1 
+{
+    width: 30%;
+    float: left;
+    
+}
+.chu
+{   
+
+    float: right;
+    font-size: 3vw;    
+    width: 50%;
+    margin-top: 50%;
+}
+
+/*p2*/
+
+.p2
+{
+    margin-top: 60px;
+    margin-left: 15%;
+   
+
+}
+.h1
+{
+    width: 20%;
+    
+    float: left;
+    margin-left: 30px;
+}
+
+.hinhanh img 
+{
+    width: 100%;
+    border: 3px solid rgb(29, 165, 170);
+}
+b
+{
+    font-size: 2vw;
+}
+
+/*p3*/
+
+.p3
+{   margin-top: 50%;
+   
+
+}
+.n1
+{   
+    background-color: darksalmon;
+    border: 4px solid darkorchid;
+    width: 40%;
+}
+#chucuan1
+{
+    margin-top: -15px;
+   margin-left: 15px;
+    background-color: black;
+    color: white;
+    width: 15vw;
+    height: 6vw;
+    font-size: 3vw;
+    
+}
+#chucuan1 a
+{
+   margin: 30px;
+}
+#anhn1
+{
+    float: left;
+}
+#chun1 h2
+{
+    float: right;
+    margin: 5%;
+}
+#doanvann1
+{
+    background-color: darkseagreen;
+}
